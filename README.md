@@ -33,9 +33,9 @@ Your mileage may very.
 ## Footnotes and notes on code.
 
 1. The code is included using Cocoapods. Typically, a project is committed without it's cocoapod dependencies to refer to it's original creator. In the interest of making Installation as easy as possible, this project contains it's cocoapod dependencies within it's GitHub repo. **Run `pod install` at your own risk, as the only version that is garenteed to work is the one installed right now.**
-2. The project contains it's own breweryDB key for convince of running.
+2. The project contains it's own breweryDB key for convenience of running.
 3. For reasons I couldn’t explain, the Objective-c names for Swift symbols were not importing back to the bridging header Swift Interface cleanly if I defined them in the Objective-C header.
-4. Originally I was going to use Mockingjay to test network requests, but I found my current tests adequate for now, and ran out of time to do this.
+4. Originally I was going to use Mockingjay to test network requests, but I found my current tests adequate for now, and ran out of time to do this. Mockingjay is still included to encourage future development.
 
 ## Future plans...
 
