@@ -50,9 +50,7 @@ class BeerListViewController: UITableViewController {
         
         navigationItem.titleView = searchBar
         searchBar.delegate = self
-        
-        search.searchText = ""
-        
+                
         //Register Cells
         tableView.register(UINib(nibName: Section.loading.rawValue, bundle: nil), forCellReuseIdentifier: Section.loading.rawValue)
         tableView.register(UINib(nibName: Section.data.rawValue, bundle: nil), forCellReuseIdentifier: Section.data.rawValue)
