@@ -1,0 +1,6 @@
+framework module Pods_Hoppy {
+  umbrella header "Pods-Hoppy-umbrella.h"
+
+  export *
+  module * { export * }
+}

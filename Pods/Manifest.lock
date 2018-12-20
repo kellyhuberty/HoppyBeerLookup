@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Mockingjay/Core (2.0.1):
+    - URITemplate (~> 2.0)
+  - URITemplate (2.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - Mockingjay/Core
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Mockingjay: 11a621880d2887f1775bdcf824341eb68f218450
+  URITemplate: ace0c4c46dcf8afe6e89b4060621852886b15c3b
+
+PODFILE CHECKSUM: 5e2ad805541d50b3b7ca909e59e2f00ac87261eb
+
+COCOAPODS: 1.4.0
